@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.40" xmlns:fx="http://javafx.com/fxml/1" fx:controller="server.ServerController">
+   <children>
+      <Label layoutX="51.0" layoutY="78.0" text="Client List" />
+      <Label layoutX="344.0" layoutY="70.0" text="Message Box" />
+      <ListView fx:id="listView" layoutX="51.0" layoutY="128.0" prefHeight="200.0" prefWidth="200.0" />
+      <TextArea fx:id="textArea" layoutX="326.0" layoutY="128.0" prefHeight="142.0" prefWidth="185.0" />
+      <Button fx:id="button" layoutX="452.0" layoutY="316.0" mnemonicParsing="false" onAction="#onbuttonclick" text="Send" />
+   </children>
+</AnchorPane>
